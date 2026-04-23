@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditya Yadav | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">AY</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Aditya Yadav</h1>
+      <h2 class="hero-title">Computer Engineering Student & Full Stack Enthusiast</h2>
+      <p class="hero-sub">Passionate about building real-world solutions with clean code and modern tech.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:adityayadav447788@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/AdityaYadav" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="tel:7058723837" title="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-circle">
+        <span>AY</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <i class="fas fa-user-graduate about-icon"></i>
+          <p>
+            Third-year Computer Engineering student at <strong>PCCOER, Pune</strong> with a strong passion for continuous learning, problem-solving, and project management.
+          </p>
+          <p>
+            Actively enhancing skills in <strong>Data Structures and Algorithms (DSA)</strong> with a focus on logical thinking and efficient coding practices.
+          </p>
+          <p>
+            Experienced in working on real-time projects that bridge academic concepts with practical applications. Eager to contribute to innovative tech solutions and collaborate in dynamic development environments.
+          </p>
+        </div>
+        <div class="about-info">
+          <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>Pune, Maharashtra, 411019</span></div>
+          <div class="info-item"><i class="fas fa-envelope"></i><span>adityayadav447788@gmail.com</span></div>
+          <div class="info-item"><i class="fas fa-phone"></i><span>7058723837</span></div>
+          <div class="info-item"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/AdityaYadav" target="_blank">AdityaYadav | LinkedIn</a></div>
+          <div class="info-item"><i class="fas fa-university"></i><span>B.E. Computer Engineering — PCCOER</span></div>
+          <div class="info-item"><i class="fas fa-star"></i><span>SGPA: 8.45</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Technical Skills</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">C++</span>
+            <span class="tag">Java</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools & Software</h3>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitLab</span>
+            <span class="tag">Postman</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">IntelliJ</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-lightbulb"></i> Concepts</h3>
+          <div class="skill-tags">
+            <span class="tag">OOP</span>
+            <span class="tag">Microservices</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">JWT Authentication</span>
+            <span class="tag">DSA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <i class="fas fa-file-alt project-icon"></i>
+            <div>
+              <h3>Digitization of Compliance Form</h3>
+              <span class="project-location"><i class="fas fa-map-pin"></i> PCCOER, Pune, India</span>
+            </div>
+          </div>
+          <ul class="project-points">
+            <li>Designed and developed a web-based application to digitize the student compliance form process, eliminating manual signatures and physical submissions.</li>
+            <li>Implemented features for automated form generation, secure digital authentication, and centralized tracking to reduce errors and prevent document misplacement.</li>
+            <li>Improved operational efficiency and user experience for both students and administrators.</li>
+          </ul>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">July 2023 – Present</span>
+            <h3>Bachelor of Engineering — Computer Engineering</h3>
+            <p class="timeline-place">Pimpri Chinchwad College of Engineering & Research (PCCOER), Ravet, Pune</p>
+            <span class="timeline-score">SGPA: 8.45</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">March 2023</span>
+            <h3>HSC (12th)</h3>
+            <p class="timeline-place">Ligade Patil Jr. College, Karad, Satara</p>
+            <span class="timeline-score">81.67%</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">March 2021</span>
+            <h3>SSC (10th)</h3>
+            <p class="timeline-place">Mahatma Gandhi Vidyalaya, Kadegaon, Sangali</p>
+            <span class="timeline-score">87.60%</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements / Certifications -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <h2 class="section-title">Achievements & Certifications</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <i class="fas fa-certificate achieve-icon"></i>
+          <h3>C++ Course</h3>
+          <p>Spoken Tutorial</p>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-laptop-code achieve-icon"></i>
+          <h3>Full Stack Developer</h3>
+          <p>APNA College (YouTube)</p>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-code-branch achieve-icon"></i>
+          <h3>DSA Series using C++</h3>
+          <p>APNA College (YouTube)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section section-alt">
+    <div class="container resume-section">
+      <h2 class="section-title">Resume</h2>
+      <p class="resume-desc">Want to know more about my experience and skills? Download my resume below.</p>
+      <a href="#" class="btn btn-primary" download>
+        <i class="fas fa-download"></i> Download Resume
+      </a>
+      <div class="resume-preview">
+        <div class="resume-card">
+          <i class="fas fa-file-pdf resume-file-icon"></i>
+          <div>
+            <p class="resume-filename">Aditya_Yadav_Resume.pdf</p>
+            <p class="resume-meta">Computer Engineering Student | Full Stack Enthusiast</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>Feel free to reach out for collaborations, opportunities, or just a friendly chat!</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:adityayadav447788@gmail.com">adityayadav447788@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <a href="tel:7058723837">7058723837</a>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Pune, Maharashtra, 411019</span>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/AdityaYadav" target="_blank">AdityaYadav | LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-success" id="form-success">Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Designed & Built by <strong>Aditya Yadav</strong> &copy; 2026</p>
+    <div class="footer-socials">
+      <a href="mailto:adityayadav447788@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/AdityaYadav" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
